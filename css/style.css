@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display|Playfair+Display&display=swap');
+
+body{
+    background-color: rgb(29, 32, 37);
+}
+header h1{
+    font-family: 'Monoton', cursive;
+    font-size: 2em;
+    color: rgb(103, 105, 107);
+    margin-top: 0;
+    margin-left: 2%;
+    
+}
+header ul {
+    margin: 0;
+}
+header nav ul li{
+    list-style: none;
+    display: inline;
+    font-family: 'DM Serif Display', serif;
+    color: rgb(103, 105, 107);
+    margin-right: 100px;
+    padding-bottom: 37px;
+}
+header a{
+    color: rgb(103, 105, 107);
+    font-family: 'DM Serif Display', serif;
+    text-decoration:none;
+    
+   
+}
+header a:nth-of-type(1){
+    position: absolute;
+    left: 6%;
+    top: 2%;
+  
+}
+header a:nth-of-type(2){
+    position: absolute;
+    left: 9.5%;
+    top: 2%;
+}
+header li:hover{
+    border-bottom: 2px solid rgb(190, 98, 31);
+}
+header nav{
+   position:absolute;
+   top: 2%;
+   left: 50%;
+}
+header{
+    border-bottom: 2px solid rgb(103, 105, 107);
+}
+main section article:nth-of-type(2){
+    float: right;
+    
+}
+main section article:nth-of-type(1){
+   
+   position: absolute;
+   left: 15%; 
+   top: 30%;
+}
+main section article:nth-of-type(1) h2{
+    color: #fff;
+    font-size: 4em;
+}
+main section article:nth-of-type(1) p{
+    color: rgb(161, 129, 108);
+    font-size: 2em;
+}
+
+main section article:nth-of-type(2) img {
+    width: 15vw;
+    height: 70vh;
+    margin-top: 10%;
+    max-width: 45%;
+    padding: 0 12px;
+    
+}
